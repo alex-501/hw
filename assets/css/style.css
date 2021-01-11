@@ -1,0 +1,246 @@
+html{
+    background-color: rgb(0, 0, 0);
+}
+body{
+ background-image: url(./images/mountain.jpg);
+
+}
+
+h1{
+    padding-right: 5px black;
+}
+h2{
+    margin: 5px;
+    padding-right: 5px black;
+    border-right: black solid;
+    width: 8em;
+    height: 10em;
+}
+
+
+
+
+
+    
+
+header {padding: 20px 35px;
+
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+position: bottom;
+margin-bottom: 2%;
+top: 0;
+
+background-size: cover;
+background-attachment: fixed;
+background-position: 80%;
+
+z-index: 9999;}
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+  
+header nav ul {
+    
+    display: inline flex;
+    padding: 0 0 0 10px;
+}
+
+header nav ul li{
+    display: inline ;
+    text-shadow: black;
+    
+}
+
+header nav ul li a{
+    color: black;
+    padding: bottom 5px;
+    display: inline;
+    text-shadow: black;
+}
+
+/*body*/ 
+.abm div {
+padding:0 0 4px 0;
+margin: auto;
+
+
+}
+
+.flex-container {
+    display: flex;
+    
+    padding: 1em;
+    margin: 1em;
+     ;
+  
+}
+
+/* Div flex container- try setting rules for it here*/
+.flex-container > div {
+flex-direction: inline;
+    margin: 2px;
+    padding: 5px;
+    font-size: medium;
+    flex-wrap:wrap ;
+}
+
+   nav .flex-container  {
+        
+     display: flex;
+     flex: wrap;
+    }
+    
+
+    .flex-container > h1 {
+     margin: 10px;
+     padding: 20px;
+     font-size: 30px;
+    }
+
+    
+    
+
+    .abm div h2{
+    
+        width: 10em;
+    }
+    
+    
+    .service-grid-item {
+        background-color:blue;
+        border: solid;
+        padding: 1em;
+        color: black;
+        
+    }      
+
+    
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 100px;}
+
+    
+    .service-grid-container {
+        max-width: 940px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 100px);
+        grid-gap: 10px;
+      }
+      
+      
+      
+
+       .box1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        background-image: url(./images/hacking.jpg);
+          }
+
+          .box2 {
+              background-image: url(./images/accounting1.jpg);
+          }
+          .box3  {
+              background-image: url(./images/welder.jpg);
+              margin: 5px;
+          }
+
+          .box4 {
+            background-image: url(./images/firefight.jpg);
+          }
+
+          .box5 {
+              background-image: url(./images/trail.jpg);
+          }
+
+    div.service-grid-item.box1{
+        margin: 5px;
+    }
+
+    div.service-grid-item.box2{
+        margin: 5px;
+    }
+
+    div.service-grid-item.box3{
+        margin: 5px;
+    }
+
+    div.service-grid-item.box4{
+        margin: 5px;
+    }
+
+    div.service-grid-item.box5{
+        margin: 5px;
+    }
+
+
+
+    div.service-grid-item.box6{
+        visibility: hidden;
+    }
+h2 {
+    margin: 1Spx;
+    padding-right: 5px black;
+    border-right: black solid;
+}
+
+
+
+
+
+
+footer ul{
+    padding: 20px 35px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: bottom;
+    margin-bottom: 2%;
+    top: 0;
+    
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%; 
+    
+} 
+
+footer ul li {
+    font-weight: bold;
+    
+}
+footer div {
+    display: inline;
+    
+    
+}
+
+footer ul li a {
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    padding: bottom 5px;
+    display: inline;
+    text-shadow: black;
+}
+a#contact-me {
+    display: inline-flex;
+    margin: 5px;
+    padding-right: 5px black;
+    border-right: black solid;
+    width: 10em;
+    height: 100px;
+    font-weight:bold;
+}
